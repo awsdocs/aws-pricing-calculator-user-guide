@@ -1,7 +1,7 @@
 # AWS Pricing Calculator User Guide
 
 -----
-*****Copyright &copy; 2019 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
+*****Copyright &copy; 2020 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
 
 -----
 Amazon's trademarks and trade dress may not be used in 
@@ -23,6 +23,7 @@ Amazon's trademarks and trade dress may not be used in
    + [Generating Amazon EC2 Estimates](ec2-estimates.md)
       + [Quick Estimates](quick-estimate.md)
       + [Advanced Estimates](advanced-estimate.md)
++ [Saving and Sharing Your Estimate](save-share-estimate.md)
 + [Exporting Estimates](export-estimate.md)
 + [Resources](resources.md)
 + [Document History for User Guide](doc-history.md)

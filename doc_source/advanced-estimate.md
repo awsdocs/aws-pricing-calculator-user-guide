@@ -47,68 +47,6 @@ AWS Pricing Calculator generates your estimate using a Windows Server with SQL S
 
 AWS Pricing Calculator lists all available instance types\. AWS Pricing Calculator starts with the default instance type **t2\.xlarge** selected\. You can use the search bar to filter the instance list by column names\. If you don't select a column to filter by, AWS Pricing Calculator uses the **API name** column as the default\.
 
-These are the available Amazon EC2 instance families\.
-
-**T2 Instance Family**  
-T2 instances are Burstable Performance Instances that provide a baseline level of CPU performance with the ability to burst above the baseline\.  
-For more information about this instance family, see **General Purpose** on the [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) page\.
-
-**M5 Instance Family**  
-M5 instances are the latest generation of General Purpose Instances\. This family provides a balance of compute, memory, and network resources, and it is a good choice for many applications\.  
-For more information about this instance family, see **General Purpose** on the [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) page\.
-
-**M4 Instance Family**  
-M4 instances provide a balance of compute, memory, and network resources, and it is a good choice for many applications\.  
-For more information about this instance family, see **General Purpose** on the [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) page\.
-
-**C5 Instance Family**  
-C5 instances are optimized for compute\-intensive workloads and deliver very cost\-effective high performance at a low price per compute ratio\.  
-For more information about this instance family, see **Compute Optimized** on the [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) page\.
-
-**C4 Instance Family**  
-C4 instances are optimized for compute\-intensive workloads and deliver very cost\-effective high performance at a low price per compute ratio\.  
-For more information about this instance family, see **Compute Optimized** on the [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) page\.
-
-**X1e Instance Family**  
-X1e instances are optimized for high\-performance databases, in\-memory databases and other memory intensive enterprise applications\. X1e instances offer one of the lowest price per GiB of RAM among Amazon EC2 instance types\.  
-For more information about this instance family, see **Memory Optimized** on the [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) page\.
-
-**X1 Instance Family**  
-X1 instances are optimized for large\-scale, enterprise\-class and in\-memory applications, and offer one of the lowest price per GiB of RAM among Amazon EC2 instance types\.  
-For more information about this instance family, see **Memory Optimized** on the [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) page\.
-
-**R4 Instance Family**  
-In\-memory databases \(e\.g\. SAP HANA\), big data processing engines \(e\.g\. Apache Spark or Presto\), high performance computing \(HPC\)\. Certified by SAP to run Business Warehouse on HANA \(BW\), Data Mart Solutions on HANA, Business Suite on HANA \(SoH\), Business Suite S/4HANA\.  
-For more information about this instance family, see **Memory Optimized** on the [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) page\.
-
-**P3 Instance Family**  
-P3 instances are the latest generation of general purpose GPU instances\.  
-For more information about this instance family, see **Accelerated Computing** on the [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) page\.
-
-**P2 Instance Family**  
-P2 instances are intended for general\-purpose GPU compute applications\.   
-For more information about this instance family, see **Accelerated Computing** on the [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) page\.
-
-**G3 Instance Family**  
-G3 instances are optimized for graphics\-intensive applications\.  
-For more information about this instance family, see **Accelerated Computing** on the [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) page\.
-
-**F1 Instance Family**  
-F1 instances offer customizable hardware acceleration with field programmable gate arrays \(FPGAs\)\.  
-For more information about this instance family, see **Accelerated Computing** on the [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) page\.
-
-**H1 Instance Family**  
-H1 instances feature up to 16 TB of HDD\-based local storage, deliver high disk throughput, and a balance of compute and memory\.  
-For more information about this instance family, see **Storage Optimized** on the [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) page\.
-
-**I3 Instance Family**  
-This instance family provides Non\-Volatile Memory Express \(NVMe\) SSD\-backed instance storage optimized for low latency, very high random I/O performance, high sequential read throughput and provide high IOPS at a low cost\. I3 also offers Bare Metal instances \(i3\.metal\), powered by the Nitro System, for non\-virtualized workloads, workloads that benefit from access to physical resources, or workloads that may have license restrictions\.  
-For more information about this instance family, see **Storage Optimized** on the [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) page\.
-
-**D2 Instance Family**  
-D2 instances feature up to 48 TB of HDD\-based local storage, deliver high disk throughput, and offer the lowest price per disk throughput performance on Amazon EC2\.  
-For more information about this instance family, see **Storage Optimized** on the [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/) page\.
-
 For more information about the prices of available instance types, see the [Amazon EC2 Pricing](https://aws.amazon.com/ec2/pricing/) page\. 
 
 ## Workload<a name="ec2-advanced-workload"></a>
@@ -180,7 +118,7 @@ For a three\-year no\-upfront term, you agree to purchase an RI for a three\-yea
 For a three\-year partial\-upfront term, you agree to purchase an RI for a three\-year period\. There is an upfront fee, but you also pay a monthly fee\. This means that the upfront cost is higher than if you had a no\-upfront term, but the monthly cost is lower, and you pay an overall lower price than for a no\-upfront RI\.
 
 **3 YR Full Upfront**  
-For a three\-year no\-upfront term, you agree to purchase an RI for a three\-year period\. There is no monthly fee—you pay the entire cost when you purchase the RI\.
+For a three\-year full\-upfront term, you agree to purchase an RI for a three\-year period\. There is no monthly fee—you pay the entire cost when you purchase the RI\.
 
 **3 YR No Upfront \- Convertible Reserved Instances**  
 For a three\-year no\-upfront term, you agree to purchase an RI for a three\-year period\. There is no upfront fee, but you pay a monthly fee\. For a Convertible RI, you can change the instance families, operating systems, or tenancies of your Convertible RIs over the course of your RI term\. 
@@ -189,7 +127,7 @@ For a three\-year no\-upfront term, you agree to purchase an RI for a three\-yea
 For a three\-year partial\-upfront term, you agree to purchase an RI for a three\-year period\. There is an upfront fee, but you also pay a monthly fee\. This means that the upfront cost is higher than if you had a no\-upfront term, but the monthly cost is lower, and you pay an overall lower price than for a no\-upfront RI\. For a Convertible RI, you can change the instance families, operating systems, or tenancies of your Convertible RIs over the course of your RI term\. 
 
 **3 YR Full Upfront \- Convertible Reserved Instances**  
-For a three\-year no\-upfront term, you agree to purchase an RI for a three\-year period\. There is no monthly fee—you pay the entire cost when you purchase the RI\. For a Convertible RI, you can change the instance families, operating systems, or tenancies of your Convertible RIs over the course of your RI term\. 
+For a three\-year full\-upfront term, you agree to purchase an RI for a three\-year period\. There is no monthly fee—you pay the entire cost when you purchase the RI\. For a Convertible RI, you can change the instance families, operating systems, or tenancies of your Convertible RIs over the course of your RI term\. 
 
 ## Data Transfer<a name="ec2-advanced-data-transfer"></a>
 
