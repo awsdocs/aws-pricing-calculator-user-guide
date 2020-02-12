@@ -27,7 +27,7 @@ Amazon's trademarks and trade dress may not be used in
 + [Exporting Estimates](export-estimate.md)
 + [Security in AWS Pricing Calculator](security.md)
    + [Data Protection in AWS Pricing Calculator](data-protection.md)
-   + [Compliance Validation for AWS Pricing Calculator](SERVICENAME-compliance.md)
+   + [Compliance Validation for AWS Pricing Calculator](APC-compliance.md)
 + [Resources](resources.md)
 + [Document History for User Guide](doc-history.md)
 + [AWS Glossary](glossary.md)

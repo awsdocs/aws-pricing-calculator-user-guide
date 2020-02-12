@@ -10,4 +10,4 @@ AWS Pricing Calculator is a public interface\. The information you provide isn't
 
 **Topics**
 + [Data Protection in AWS Pricing Calculator](data-protection.md)
-+ [Compliance Validation for AWS Pricing Calculator](SERVICENAME-compliance.md)
++ [Compliance Validation for AWS Pricing Calculator](APC-compliance.md)
