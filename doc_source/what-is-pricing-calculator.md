@@ -1,4 +1,4 @@
-# What Is AWS Pricing Calculator?<a name="what-is-pricing-calculator"></a>
+# What is AWS Pricing Calculator?<a name="what-is-pricing-calculator"></a>
 
 AWS Pricing Calculator lets you explore AWS services and create an estimate for the cost of your use cases on AWS\. You can model your solutions before building them, explore the price points and calculations behind your estimate, and find the available instance types and contract terms that meet your needs\. This enables you to make informed decisions about using AWS\. You can plan your AWS costs and usage or price out setting up a new set of instances and services\. 
 
@@ -8,13 +8,13 @@ AWS Pricing Calculator is useful both for people who have never used AWS and for
 
 AWS Pricing Calculator provides only a console interface at [https://calculator\.aws/\#/](https://calculator.aws/#/)\. It doesn't provide an API\.
 
-## Prerequisites for Using AWS Pricing Calculator<a name="apc-prereqs"></a>
+## Prerequisites for using AWS Pricing Calculator<a name="apc-prereqs"></a>
 
 You don't need an AWS account or in\-depth knowledge of AWS to use AWS Pricing Calculator\.
 
 For best results, we suggest that you have a plan for how you want to use AWS before starting your estimate\. For example, decide whether you want to break out your estimate by cost center, by product that you run on AWS, or by regional stacks\.
 
-## AWS Pricing Calculator Regions<a name="apc-regions"></a>
+## AWS Pricing Calculator regions<a name="apc-regions"></a>
 
 AWS Pricing Calculator is available in the following Regions\.
 

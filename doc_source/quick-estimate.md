@@ -1,15 +1,15 @@
-# Quick Estimates<a name="quick-estimate"></a>
+# Quick estimates<a name="quick-estimate"></a>
 
 The quick estimate path is designed to give you a ballpark estimate while requiring minimal information and parameters\. This way you can get a rough idea of how much AWS might cost you even when you don't have all, or even many, of the details of how you plan to use AWS\.
 
 Each parameter has a default setting, so if you don't know what you want for that particular parameter, you can still generate an estimate\.
 
 The quick estimate path has the following sections and parameters:
-+ [Amazon EC2 Specifications](#quick-ec2-specifications)
-+ [Pricing Strategy](#quick-pricing-strategy)
++ [Amazon EC2 specifications](#quick-ec2-specifications)
++ [Pricing strategy](#quick-pricing-strategy)
 + [Amazon EBS](#quick-ebs)
 
-## Amazon EC2 Specifications<a name="quick-ec2-specifications"></a>
+## Amazon EC2 specifications<a name="quick-ec2-specifications"></a>
 
 These settings determine the Amazon EC2 instance that AWS Pricing Calculator uses to generate an estimate for you\.
 
@@ -26,9 +26,9 @@ There are multiple defaults when you search for an instance by instance requirem
 **Instance name**  
 To find an instance, search either by minimum requirements or by name\. Minimum requirements are most useful when you know the specifications of the instances that you want, and instance name is more useful if you already know the instance family or size of the instance that you want\. For example, you can search either for an instance with a minimum of 4 vCPUs and 16 GB of memory or for a t2 or medium instance\.  
 There is no default value for the instance name because AWS Pricing Calculator searches the available instances for the least expensive option, which can change over time\.  
-For information about the available Amazon EC2 instance families, see [Instance Type](advanced-estimate.md#ec2-advanced-instance-type)\.
+For information about the available Amazon EC2 instance families, see [Instance type](advanced-estimate.md#ec2-advanced-instance-type)\.
 
-## Pricing Strategy<a name="quick-pricing-strategy"></a>
+## Pricing strategy<a name="quick-pricing-strategy"></a>
 
 These settings determine the pricing strategy that AWS Pricing Calculator uses to generate an estimate for you\.
 

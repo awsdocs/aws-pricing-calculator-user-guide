@@ -9,5 +9,5 @@ Security is a shared responsibility between AWS and you\. The [shared responsibi
 AWS Pricing Calculator is a public interface\. The information you provide isn't stored, and AWS does not collect your input or associate your input with an AWS account\.
 
 **Topics**
-+ [Data Protection in AWS Pricing Calculator](data-protection.md)
-+ [Compliance Validation for AWS Pricing Calculator](APC-compliance.md)
++ [Data protection in AWS Pricing Calculator](data-protection.md)
++ [Compliance validation for AWS Pricing Calculator](APC-compliance.md)

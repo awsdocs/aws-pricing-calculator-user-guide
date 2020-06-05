@@ -1,18 +1,18 @@
-# Advanced Estimates<a name="advanced-estimate"></a>
+# Advanced estimates<a name="advanced-estimate"></a>
 
 The advanced estimate path is designed to give you a more accurate estimate, more parameter flexibility when generating an estimate, and the ability to fine\-tune your estimate\. It requires more in\-depth knowledge of your Amazon EC2 needs and requirements than an estimate that you generate using the quick estimate path\.
 
 Use the advanced estimate path for estimates that need to account for workload, data transfer costs, additional storage options, and other, less common instance requirements\. For example, you know that you get a lot of traffic on Mondays but not much traffic throughout the rest of the week, and you want an estimate that accounts for this workload\. 
 
 The advanced estimate path has the following sections and parameters:
-+ [Operating System](#ec2-advanced-os)
-+ [Instance Type](#ec2-advanced-instance-type)
++ [Operating system](#ec2-advanced-os)
++ [Instance type](#ec2-advanced-instance-type)
 + [Workload](#ec2-advanced-workload)
 + [Pricing](#ec2-advanced-pricing)
-+ [Data Transfer](#ec2-advanced-data-transfer)
-+ [Memory \(Block Storage\)](#ec2-advanced-memory)
++ [Data transfer](#ec2-advanced-data-transfer)
++ [Memory \(block storage\)](#ec2-advanced-memory)
 
-## Operating System<a name="ec2-advanced-os"></a>
+## Operating system<a name="ec2-advanced-os"></a>
 
 This setting is the OS on an Amazon EC2 instance\. AWS Pricing Calculator generates your estimate using Amazon Machine Images \(AMIs\) that match your chosen OS\. Choose the OS that best matches your needs\.
 
@@ -43,7 +43,7 @@ AWS Pricing Calculator generates your estimate using a Windows Server with SQL S
 **Windows Server with SQL Server Web**  
 AWS Pricing Calculator generates your estimate using a Windows Server with SQL Server Web AMI\.
 
-## Instance Type<a name="ec2-advanced-instance-type"></a>
+## Instance type<a name="ec2-advanced-instance-type"></a>
 
 AWS Pricing Calculator lists all available instance types\. AWS Pricing Calculator starts with the default instance type **t2\.xlarge** selected\. You can use the search bar to filter the instance list by column names\. If you don't select a column to filter by, AWS Pricing Calculator uses the **API name** column as the default\.
 
@@ -129,27 +129,27 @@ For a three\-year partial\-upfront term, you agree to purchase an RI for a three
 **3 YR Full Upfront \- Convertible Reserved Instances**  
 For a three\-year full\-upfront term, you agree to purchase an RI for a three\-year period\. There is no monthly fee—you pay the entire cost when you purchase the RI\. For a Convertible RI, you can change the instance families, operating systems, or tenancies of your Convertible RIs over the course of your RI term\. 
 
-## Data Transfer<a name="ec2-advanced-data-transfer"></a>
+## Data transfer<a name="ec2-advanced-data-transfer"></a>
 
 You can accrue additional costs by transferring data into and out of Amazon EC2\. If you know how much data you can expect to upload or download in a month, you can add these costs to your estimate\. For more information, see the **Data Transfer** section of the [On\-Demand Pricing](https://aws.amazon.com/ec2/pricing/on-demand/) page\.
 
-## Memory \(Block Storage\)<a name="ec2-advanced-memory"></a>
+## Memory \(block storage\)<a name="ec2-advanced-memory"></a>
 
 You can add estimates for storage attached to your instance or for snapshots taken of your instance\. Attaching storage to your instance enables you to run databases, store logs, or create boot volumes for your instance\. Snapshots create backups of the data on your instance, and you can add estimates for regular snapshots to your main estimate\.
 
-### Generating Amazon EBS Estimates<a name="ebs-estimates"></a>
+### Generating Amazon EBS estimates<a name="ebs-estimates"></a>
 
 You can back up the data on your Amazon EBS volumes to Amazon Simple Storage Service \(Amazon S3\) by taking point\-in\-time snapshots\. Snapshots are incremental backups, which means that only the blocks on the device that have changed since your most recent snapshot are saved\. This minimizes the time required to create the snapshot and saves on storage costs by not duplicating data\. When you delete a snapshot, only the data unique to that snapshot is removed\. Each snapshot contains all of the information that you need to restore your data \(from the moment when the snapshot was taken\) to a new Amazon EBS volume\. 
 
 The total cost for a snapshot is the cost of the initial snapshot plus the incremental snapshots\. AWS Pricing Calculator calculates prices with the assumption that you use AWS Step Functions and Amazon CloudWatch to create an automated monthly retention period for your snapshots, meaning that your snapshots are replaced every month\.
 
-#### Calculating Amazon EBS Prices<a name="ebs-calculating-prices"></a>
+#### Calculating Amazon EBS prices<a name="ebs-calculating-prices"></a>
 
 Snapshots are saved at a specific frequency \(monthly, weekly, daily, or hourly\), so the retention period of each incremental snapshot for a month decreases as the month progresses\. AWS Pricing Calculator tries to estimate the cost of the services that you selected on a monthly basis\.
 
 The prices for snapshots reflect the initial snapshot and the incremental snapshots\.
 
-##### Calculating Weekly Incremental Amazon EBS Prices<a name="ebs-calculating-weekly"></a>
+##### Calculating weekly incremental Amazon EBS prices<a name="ebs-calculating-weekly"></a>
 
 AWS Pricing Calculator uses 7 to 30 different data points to calculate the estimate for any specific incremental snapshot\. We can express the monthly calculation using the following mathematical formula for a snapshot that is scheduled to be taken weekly and has a monthly retention rate\.
 

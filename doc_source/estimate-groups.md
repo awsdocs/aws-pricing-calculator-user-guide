@@ -1,4 +1,4 @@
-# Using Groups<a name="estimate-groups"></a>
+# Using groups<a name="estimate-groups"></a>
 
 You can organize your AWS estimates by groups that you define\. A group can reflect how your company is organized, such as providing estimates by cost center, or it can reflect other organization methods, such as by product stack or product architecture\. For example, if you want to price out different ways to build your AWS setup, you can use different groups for each variation of your setup and compare the estimates for the different setups\. You can also generate one estimate for how much running a website might cost you and another estimate for how much running a machine learning process might cost you, enabling you to see the combined estimate for your AWS usage\. 
 

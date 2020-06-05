@@ -1,4 +1,4 @@
-# Compliance Validation for AWS Pricing Calculator<a name="APC-compliance"></a>
+# Compliance validation for AWS Pricing Calculator<a name="APC-compliance"></a>
 
 Third\-party auditors assess the security and compliance of AWS Pricing Calculator as part of multiple AWS compliance programs\. AWS Pricing Calculator is not in scope of any AWS compliance programs\.
 

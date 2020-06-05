@@ -1,15 +1,15 @@
-# Getting Started<a name="getting-started"></a>
+# Getting started<a name="getting-started"></a>
 
 The Getting Started chapter walks you through a task using AWS Pricing Calculator so that you can get an idea of how to use AWS Pricing Calculator\. In this case, we walk you through getting an estimate for an Amazon EC2 instance using the Amazon EC2 **Quick estimate** option\. The Amazon EC2 quick estimate enables you to add an Amazon EC2 instance to your estimate without delving deeply into the different Amazon EC2 options\. This enables you to get an estimate without knowing the technical details of all of the Amazon EC2 instance types\.
 
 **Topics**
-+ [Understanding Your Estimates](#overview)
++ [Understanding your estimates](#overview)
 + [Prerequisites](#prereqs)
-+ [Step 1: Create an Estimate](#step-1)
-+ [Step 2: \(Optional\) Add a Group](#step-2)
-+ [Step 3: Add and Configure a Service](#step-3)
++ [Step 1: Create an estimate](#step-1)
++ [Step 2: \(Optional\) Add a group](#step-2)
++ [Step 3: Add and configure a service](#step-3)
 
-## Understanding Your Estimates<a name="overview"></a>
+## Understanding your estimates<a name="overview"></a>
 
  When you generate an estimate, you can either add services directly to your estimate or create a group and add the services to your group\.
 
@@ -19,17 +19,17 @@ This guide shows you how to set up a group with an Amazon EC2 instance that you 
 
 To complete this tutorial, perform the following tasks:
 
-1. [Step 1: Create an Estimate](#step-1)
+1. [Step 1: Create an estimate](#step-1)
 
-1. [Step 2: \(Optional\) Add a Group](#step-2)
+1. [Step 2: \(Optional\) Add a group](#step-2)
 
-1. [Step 3: Add and Configure a Service](#step-3)
+1. [Step 3: Add and configure a service](#step-3)
 
 ## Prerequisites<a name="prereqs"></a>
 
 This tutorial doesn't require any initial setup\. You can use it without an AWS account and without committing to anything\. 
 
-## Step 1: Create an Estimate<a name="step-1"></a>
+## Step 1: Create an estimate<a name="step-1"></a>
 
 To get started generating an estimate, create your estimate and assign your estimate a Region\. <a name="create-estimate"></a>
 
@@ -47,12 +47,12 @@ To get started generating an estimate, create your estimate and assign your esti
 
 1. Choose **Add to my estimate**\.
 
-## Step 2: \(Optional\) Add a Group<a name="step-2"></a>
+## Step 2: \(Optional\) Add a group<a name="step-2"></a>
 
 A group enables you to organize services together\. You can add one or more services to each group\. You can use groups to organize your estimate in different ways, such as by cost center, service stack, product architecture, or client\.
 
 **Note**  
-You can customize Regions for each service at a service level, by using the Region dropdown menu\. You can't change Regions at a group level\. For more information about customizing Regions for services, see [Step 3: Add and Configure a Service](#step-3)\.<a name="add-group"></a>
+You can customize Regions for each service at a service level, by using the Region dropdown menu\. You can't change Regions at a group level\. For more information about customizing Regions for services, see [Step 3: Add and configure a service](#step-3)\.<a name="add-group"></a>
 
 **To add a group to your estimate**
 
@@ -62,7 +62,7 @@ You can customize Regions for each service at a service level, by using the Regi
 
 1. Choose **Add group**\.
 
-## Step 3: Add and Configure a Service<a name="step-3"></a>
+## Step 3: Add and configure a service<a name="step-3"></a>
 
 After you have an estimate and \(optionally\) a group, add and configure services to your estimate to generate estimated costs\. If you didn't create a group, use the **My estimate** view instead of the **My service group** view\. Everything else in the following procedure remains the same\.
 

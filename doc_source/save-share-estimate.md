@@ -1,4 +1,4 @@
-# Saving and Sharing Your Estimate<a name="save-share-estimate"></a>
+# Saving and sharing your estimate<a name="save-share-estimate"></a>
 
 You can save each estimate's unique link to share or revisit directly through your browser\. Estimates are saved to AWS public servers\.
 
@@ -7,11 +7,11 @@ Any changes that you make to an estimate requires you to save again\. AWS Pricin
 Each time that you save an estimate, the system generates a unique link\. If you don't copy and save the newly generated link, you can't access any saved changes\.
 
 **Topics**
-+ [Creating an Estimate Link](#create-estimate-link)
-+ [Creating a New Link for Updated Estimates](#update-estimate-link)
-+ [Creating a New Link for an Existing Estimate](#new-estimate-link)
++ [Creating an estimate link](#create-estimate-link)
++ [Creating a new link for updated estimates](#update-estimate-link)
++ [Creating a new link for an existing estimate](#new-estimate-link)
 
-## Creating an Estimate Link<a name="create-estimate-link"></a>
+## Creating an estimate link<a name="create-estimate-link"></a>
 
 To create an estimate and share the results, save the estimate and copy the generated link\. <a name="create-share-link"></a>
 
@@ -25,7 +25,7 @@ To create an estimate and share the results, save the estimate and copy the gene
 
 1. Choose **Copy public link** to save your generated link\.
 
-## Creating a New Link for Updated Estimates<a name="update-estimate-link"></a>
+## Creating a new link for updated estimates<a name="update-estimate-link"></a>
 
 If you have updates to an existing estimate, you must make the changes and save to regenerate a new estimate link\.<a name="update-estimate-link-steps"></a>
 
@@ -41,7 +41,7 @@ If you have updates to an existing estimate, you must make the changes and save 
 
 1. To save the new link for your updated estimate, choose **Copy public link**\.
 
-## Creating a New Link for an Existing Estimate<a name="new-estimate-link"></a>
+## Creating a new link for an existing estimate<a name="new-estimate-link"></a>
 
 You can generate new links for existing estimates\.<a name="new-estimate-link-steps"></a>
 

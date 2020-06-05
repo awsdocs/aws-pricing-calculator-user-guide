@@ -1,4 +1,4 @@
-# Exporting Estimates<a name="export-estimate"></a>
+# Exporting estimates<a name="export-estimate"></a>
 
 You can export your AWS Pricing Calculator estimate as a CSV file\. This enables you to save the parameters that AWS Pricing Calculator used to create your estimate so that you can revisit them if you decide to set up AWS services\.<a name="export-estimate-proc"></a>
 

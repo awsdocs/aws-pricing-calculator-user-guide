@@ -1,4 +1,4 @@
-# AWS Pricing Calculator User Guide
+# AWS pricing calculator User Guide
 
 -----
 *****Copyright &copy; 2020 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
@@ -14,20 +14,21 @@ Amazon's trademarks and trade dress may not be used in
 
 -----
 ## Contents
-+ [What Is AWS Pricing Calculator?](what-is-pricing-calculator.md)
-+ [Getting Started](getting-started.md)
-+ [Generating Your Estimate](generate-your-estimate.md)
-   + [Reading an Estimate](reading-estimate.md)
-   + [Best Practices for Generating Estimates](estimate-best-practices.md)
-   + [Using Groups](estimate-groups.md)
-   + [Generating Amazon EC2 Estimates](ec2-estimates.md)
-      + [Quick Estimates](quick-estimate.md)
-      + [Advanced Estimates](advanced-estimate.md)
-+ [Saving and Sharing Your Estimate](save-share-estimate.md)
-+ [Exporting Estimates](export-estimate.md)
++ [What is AWS Pricing Calculator?](what-is-pricing-calculator.md)
++ [Getting started](getting-started.md)
++ [Generating your estimate](generate-your-estimate.md)
+   + [Reading an estimate](reading-estimate.md)
+   + [Best practices for generating estimates](estimate-best-practices.md)
+   + [Using groups](estimate-groups.md)
+   + [Generating Amazon EC2 estimates](ec2-estimates.md)
+      + [Quick estimates](quick-estimate.md)
+      + [Advanced estimates](advanced-estimate.md)
+   + [Generating AWS Support estimates](support-estimates.md)
++ [Saving and sharing your estimate](save-share-estimate.md)
++ [Exporting estimates](export-estimate.md)
 + [Security in AWS Pricing Calculator](security.md)
-   + [Data Protection in AWS Pricing Calculator](data-protection.md)
-   + [Compliance Validation for AWS Pricing Calculator](APC-compliance.md)
+   + [Data protection in AWS Pricing Calculator](data-protection.md)
+   + [Compliance validation for AWS Pricing Calculator](APC-compliance.md)
 + [Resources](resources.md)
-+ [Document History for User Guide](doc-history.md)
-+ [AWS Glossary](glossary.md)
++ [Document history for User Guide](doc-history.md)
++ [AWS glossary](glossary.md)

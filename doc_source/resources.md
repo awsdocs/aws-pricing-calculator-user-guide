@@ -2,14 +2,14 @@
 
 The following related resources can help you as you work with this service\.
 
-## Service\-specific Resources<a name="service-resources"></a>
+## Service\-specific resources<a name="service-resources"></a>
 
 Each AWS service has its own documentation that can help you understand the service\. 
 + **[Amazon Elastic Compute Cloud documentation](https://aws.amazon.com/documentation/ec2/?id=docs_gateway)** – Provides the documentation for using Amazon Elastic Compute Cloud \(Amazon EC2\)\.
 + **[Elastic Load Balancing documentation](https://aws.amazon.com/documentation/elastic-load-balancing/)** – Provides the documentation for using Elastic Load Balancing\.
 + **[Amazon Elastic Block Store documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEBS.html)** – Provides the documentation for using Amazon Elastic Block Store\.
 
-## General AWS Resources<a name="general-resources"></a>
+## General AWS resources<a name="general-resources"></a>
 
 AWS provides several helpful guides, forums, contact info, and other resources for you\. 
 + **[AWS Developer Resource Center](https://aws.amazon.com/resources/)** – Provides a central starting point to find documentation, code samples, release notes, and other information to help you build innovative applications with AWS\.
