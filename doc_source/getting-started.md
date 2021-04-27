@@ -41,6 +41,8 @@ To get started generating an estimate, create your estimate and assign your esti
 
 1. On the **Select service** page, find the service of your choice and choose **Configure**\.
 
+1. Add a **Description** for the estimated service\.
+
 1. Select a **Region**\.
 
 1. Enter your settings in the **Service settings** section\.
@@ -75,6 +77,7 @@ In this case, we're adding Amazon EC2 using the Amazon EC2 **Quick estimate** op
 1. On the **Add service** page, select **Amazon EC2** and choose **Configure** in the upper\-right header\. This adds Amazon EC2 to your group and takes you to the **Quick estimate** view, where you can configure what you want in an Amazon EC2 instance\.
 
    The **Quick estimate** view is preloaded with default values, enabling you to see a starting estimate without adding or changing any information\. You can change any of the values for the following parameters or keep the defaults when applicable:
+   + Description
    + Region
    + The operating system
    + The number of Amazon EC2 instances

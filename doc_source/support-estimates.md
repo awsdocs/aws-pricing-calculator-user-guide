@@ -1,10 +1,5 @@
 # Generating AWS Support estimates<a name="support-estimates"></a>
 
-
-|  | 
-| --- |
-| AWS Support estimate is currently unavailable\. AWS Support estimate is currently undergoing maintenance\. The feature will be available on the console again once all issues are resolved\. | 
-
 You can add AWS Support cost to your estimates using the AWS Pricing Calculator\. By choosing an AWS Support plan, the AWS Support cost calculation is automatically updated in your total estimate amount\. After you save your AWS Support cost estimates, this amount is added to your total estimation saves\.
 
 You can select your AWS Support by directly choosing your preferred support plan, or by answering the questions provided to generate recommendations that match your AWS Support needs\.

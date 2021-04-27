@@ -14,4 +14,5 @@ AWS provides a free tier that enables you to try some AWS services for free\. Th
 + [Best practices for generating estimates](estimate-best-practices.md)
 + [Using groups](estimate-groups.md)
 + [Generating Amazon EC2 estimates](ec2-estimates.md)
++ [Generating Windows Server and SQL Server on Amazon EC2 estimates](windows-workload-estimates.md)
 + [Generating AWS Support estimates](support-estimates.md)

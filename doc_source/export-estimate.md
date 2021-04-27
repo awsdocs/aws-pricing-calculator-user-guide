@@ -4,6 +4,8 @@ You can export your AWS Pricing Calculator estimate as a CSV file\. This enables
 
 **To export an AWS Pricing Calculator estimate**
 
+
+
 1. Open AWS Pricing Calculator at [https://calculator\.aws/\#/](https://calculator.aws/#/)\.
 
 1. On the **My estimate** page, on the banner, choose **Action**\.
