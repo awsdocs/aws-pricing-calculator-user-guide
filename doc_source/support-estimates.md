@@ -1,19 +1,10 @@
-# Generating AWS Support estimates<a name="support-estimates"></a>
+# Add AWS Support costs to your estimates<a name="support-estimates"></a>
 
-
-|  | 
-| --- |
-| AWS Support estimate is currently unavailable\. AWS Support estimate is currently undergoing maintenance\. The feature will be available on the console again once all issues are resolved\. | 
-
-You can add AWS Support cost to your estimates using the AWS Pricing Calculator\. By choosing an AWS Support plan, the AWS Support cost calculation is automatically updated in your total estimate amount\. After you save your AWS Support cost estimates, this amount is added to your total estimation saves\.
-
-You can select your AWS Support by directly choosing your preferred support plan, or by answering the questions provided to generate recommendations that match your AWS Support needs\.
-
-You can edit your AWS Support plan like any other service configuration within the calculator\.
+You can add AWS Support costs to your estimates using the AWS Pricing Calculator\. You can either directly choose your preferred support plan, or complete the recommendations that match your usage needs\. You can change your AWS Support within the calculator at any time\.
 
 **Topics**
 + [Generating AWS Support estimates using recommendations](#support-rec-estimate)
-+ [Generating AWS Support estimates without using recommendations](#support-direct-estimate)
++ [Generating AWS Support estimates by choosing preferred plan](#support-preferred-estimate)
 
 ## Generating AWS Support estimates using recommendations<a name="support-rec-estimate"></a>
 
@@ -21,9 +12,15 @@ You can use the provided questions to narrow your AWS Support plan to match your
 
 **To generate AWS Support estimates using recommendations**
 
-1. Go to **My Estimate** at [https://calculator\.aws/\#/estimate](https://calculator.aws/#/estimate)\.
+1. Open AWS Pricing Calculator at [https://calculator\.aws/\#/](https://calculator.aws/#/)\.
+
+1. Create an estimate by adding one or more services\. For more information, see [Create an estimate, configure a service, add more services, edit your inputs, and generate bulk estimates](create-estimate.md)\.
+
+1. Open the **My estimate** page at [https://calculator\.aws/\#/estimate](https://calculator.aws/#/estimate) \.
 
 1. Choose **Add support**\.
+
+1. \(Optional\) Enter a description for your support plan estimate\.
 
 1. Under **Enhanced technical support**, choose your preferred interaction with AWS Support\.
 
@@ -32,30 +29,34 @@ You can use the provided questions to narrow your AWS Support plan to match your
 1. Under **Support recommendation**, select your preferred available option\.
 
     Options that don’t match your preferences are displayed in gray and can’t be selected\. 
+   + \(Business support plan only\) Under **Business spend**, choose the range of how much your business spends on average for AWS services each month\.
+   + \(Enterprise support plan only\) Under **Enterprise spend**, choose the range of how much your enterprise spends on average for AWS services each month\.
 
-1. \(Business support plan only\) Under **Business spend**, choose the range of how much your business spends on average for AWS services each month\.
-
-1. \(Enterprise support plan only\) Under **Enterprise spend**, choose the range of how much your enterprise spends on average for AWS services each month\.
+1. \(Optional\) Choose **Show calculations** to review the calculations behind the estimates\.
 
 1. Choose **Add to my estimate**\.
 
 1. \(Business and Enterprise plan only\) In the pop\-up window, choose **Confirm**\.
 
-## Generating AWS Support estimates without using recommendations<a name="support-direct-estimate"></a>
+## Generating AWS Support estimates by choosing preferred plan<a name="support-preferred-estimate"></a>
 
 You can directly choose your preferred AWS Support plan and add to your estimates\.
 
 **To generate AWS Support estimates without using recommendations**
 
-1. Go to **My Estimate** at [https://calculator\.aws/\#/estimate](https://calculator.aws/#/estimate)\.
+1. Open AWS Pricing Calculator at [https://calculator\.aws/\#/](https://calculator.aws/#/)\.
+
+1. Create an estimate by adding one or more services\. For more information, see [Create an estimate, configure a service, add more services, edit your inputs, and generate bulk estimates](create-estimate.md)\.
+
+1. Open the **My estimate** page at [https://calculator\.aws/\#/estimate](https://calculator.aws/#/estimate) \.
 
 1. Choose **Add support**\.
 
 1. Under **Support recommendation**, select your preferred available option\.
+   + \(Business support plan only\) Under **Business spend**, choose the range of how much your business spends on average for AWS services each month\.
+   + \(Enterprise support plan only\) Under **Enterprise spend**, choose the range of how much your enterprise spends on average for AWS services each month\.
 
-1. \(Business support plan only\) Under **Business spend**, choose the range of how much your business spends on average for AWS services each month\.
-
-1. \(Enterprise support plan only\) Under **Enterprise spend**, choose the range of how much your enterprise spends on average for AWS services each month\.
+1. \(Optional\) Choose **Show calculations** to review the calculations behind the estimates\.
 
 1. Choose **Add to my estimate**\.
 

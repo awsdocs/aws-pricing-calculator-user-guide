@@ -1,27 +1,28 @@
 # What is AWS Pricing Calculator?<a name="what-is-pricing-calculator"></a>
 
-AWS Pricing Calculator lets you explore AWS services and create an estimate for the cost of your use cases on AWS\. You can model your solutions before building them, explore the price points and calculations behind your estimate, and find the available instance types and contract terms that meet your needs\. This enables you to make informed decisions about using AWS\. You can plan your AWS costs and usage or price out setting up a new set of instances and services\. 
+AWS Pricing Calculator is a web\-based planning tool that you can use to create estimates for your AWS use cases\. You can use it to model your solutions before building them, explore the AWS service price points, and review the calculations behind your estimates\. You can use it to help you plan how you spend, find cost saving opportunities, and make informed decisions when using Amazon Web Services\.
 
-AWS Pricing Calculator is useful both for people who have never used AWS and for users who want to reorganize or expand their AWS usage\. You don't need any experience with the cloud or AWS to use AWS Pricing Calculator\. 
+AWS Pricing Calculator is useful for those who have never used AWS\. It's also useful for those who want to reorganize or expand their AWS usage\. You don't need any experience with the cloud or AWS to use AWS Pricing Calculator\.
 
-## Accessing AWS Pricing Calculator<a name="accessing-apc"></a>
+AWS Pricing Calculator is available through a web\-based console at [https://calculator\.aws/\#/](https://calculator.aws/#/) \.
 
-AWS Pricing Calculator provides only a console interface at [https://calculator\.aws/\#/](https://calculator.aws/#/)\. It doesn't provide an API\.
+## Features of AWS Pricing Calculator<a name="features-apc"></a>
 
-## Prerequisites for using AWS Pricing Calculator<a name="apc-prereqs"></a>
-
-You don't need an AWS account or in\-depth knowledge of AWS to use AWS Pricing Calculator\.
-
-For best results, we suggest that you have a plan for how you want to use AWS before starting your estimate\. For example, decide whether you want to break out your estimate by cost center, by product that you run on AWS, or by regional stacks\.
-
-## AWS Pricing Calculator regions<a name="apc-regions"></a>
-
-AWS Pricing Calculator is available in the following Regions\.
-
-[\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/pricing-calculator/latest/userguide/what-is-pricing-calculator.html)
+With AWS Pricing Calculator, you can do the following tasks:
++ **View transparent prices** – See the calculations behind the estimated prices for your service configurations\. You can view price estimates by service or by groups of services to analyze your architecture costs\.
++ **Use groups for hierarchical estimates** – Sort your estimates into groups to align with your architecture for clear service cost analysis\.
++ **Share your estimates** – Save the link to each estimate to share or revisit at a later time\. Estimates are saved to the AWS public servers\.
++ **Export your estimates** – Export your estimates in CSV or PDF format to share locally with your stakeholders\.
 
 ## Pricing for AWS Pricing Calculator<a name="apc-pricing"></a>
 
-AWS Pricing Calculator is free for use\. It provides an estimate of your AWS fees and charges, but the estimate doesn't include any taxes that might apply to the fees and charges\. AWS Pricing Calculator provides pricing details for your information only\. If the prices on the marketing page are different from the prices that AWS Pricing Calculator uses, AWS honors the prices from the marketing pages\. For more information about AWS service pricing, see [Cloud Services Pricing](https://aws.amazon.com/pricing/services/)\.
+AWS Pricing Calculator is provided at no charge\. It provides an estimate of your AWS fees and charges, but the estimate doesn't include any taxes that might apply\. AWS Pricing Calculator provides pricing details for only the information you enter\. If the prices on the marketing pages are different from the prices that AWS Pricing Calculator uses, AWS honors the prices from the marketing pages\. For more information about AWS service pricing, see [Cloud Services Pricing](https://aws.amazon.com/pricing/services/)\.
 
-The prices that AWS Pricing Calculator uses for the estimates come from the AWS Price List API\. For more information about the AWS Price List API, see [Using the AWS Price List API ](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-changes.html) in the *[AWS Billing and Cost Management User Guide](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/)*\.
+The prices that AWS Pricing Calculator uses for the estimates come from the AWS Price List API\. For more information about the AWS Price List API, see [Using the AWS Price List API](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-changes.html) in the [AWS Billing User Guide](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/)\.
+
+## More AWS Pricing Calculator resources<a name="apc-resources"></a>
+
+Explore the following resources to learn more about AWS Pricing Calculator\.
++ [AWS Pricing Calculator Frequently Asked Questions](http://aws.amazon.com/calculator/calculator-faq/) – Explore the FAQs that are listed in the AWS Marketing pages
++ [AWS Pricing Calculator pricing assumptions](http://aws.amazon.com/calculator/calculator-assumptions/) – Understand the disclaimers for AWS Pricing Calculator prices\.
++ [AWS IQ](http://aws.amazon.com/iq/?ref=c_pc) – Connect with AWS certified experts on AWS IQ to get help with your estimations\.
